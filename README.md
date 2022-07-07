@@ -1,2 +1,2 @@
-# Trial_ML
+# Practices
 Machine Learning Web Service 
