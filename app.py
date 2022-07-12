@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='template')
 model = pickle.load(open("xgboostregressor.pkl", "rb"))
 
 @app.route("/")
